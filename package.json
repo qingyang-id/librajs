@@ -1,0 +1,19 @@
+{
+  "name": "libra",
+  "version": "1.0.0",
+  "description": "client for FaceBook Libra",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yqsailor/librajs.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yqsailor/librajs/issues"
+  },
+  "homepage": "https://github.com/yqsailor/librajs#readme"
+}

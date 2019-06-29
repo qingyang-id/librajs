@@ -1,10 +1,10 @@
 {
-  "name": "libra",
+  "name": "librajs-lib",
   "version": "1.0.0",
-  "description": "client for FaceBook Libra",
-  "main": "index.js",
+  "description": "Client for FaceBook Libra",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node tests/accountTest.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,16 @@
   "bugs": {
     "url": "https://github.com/yqsailor/librajs/issues"
   },
-  "homepage": "https://github.com/yqsailor/librajs#readme"
+  "homepage": "https://github.com/yqsailor/librajs#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "bignumber.js": "^9.0.0",
+    "bip39": "^3.0.2",
+    "elliptic": "^6.5.0",
+    "futoin-hkdf": "^1.0.3",
+    "google-protobuf": "^3.9.0-rc.1",
+    "grpc": "^1.21.1",
+    "grpc-tools": "^1.8.0",
+    "sha3": "^2.0.4"
+  }
 }

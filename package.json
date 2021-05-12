@@ -23,7 +23,7 @@
     "elliptic": "^6.5.0",
     "futoin-hkdf": "^1.0.3",
     "google-protobuf": "^3.9.0-rc.1",
-    "grpc": "^1.21.1",
+    "grpc": "^1.24.9",
     "grpc-tools": "^1.8.0",
     "sha3": "^2.0.4"
   }
